@@ -11,8 +11,16 @@ body {
     padding: 1em;
     display: block;
     box-shadow: 5px 5px #ddd;
-    margin: 5em 24em;
+    margin: auto;
     
+}
+
+nav {
+    position: sticky;
+    background-color: #eee;
+
+    top: 0;
+    left: 100px;
 }
 
 header {
@@ -25,8 +33,16 @@ h2, h4 {
     
 }
 
-p {
-    color: #dd3232;
+
+
+#small {
+    display: inline-block;
+    width: 325px;
+}
+#bottom {
+    display: inline-block;
+    width: auto;
+    padding: 0.5em;
 }
 
 li {
@@ -40,5 +56,9 @@ li {
 a {
     text-decoration: none;
     color: #777
+}
+
+#footer {
+    text-align: center;
 }
 

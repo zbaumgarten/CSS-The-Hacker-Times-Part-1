@@ -33,7 +33,9 @@ h2, h4 {
     
 }
 
-
+a:hover {
+    color: black;
+}
 
 #small {
     display: inline-block;
